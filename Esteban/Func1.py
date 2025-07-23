@@ -1,3 +1,4 @@
+import cmath
 def saludo(n):
     """Esta funcion imprime un saludo a la persona que se escrba como argumento."""
     print("Hola "+ n)
@@ -24,3 +25,14 @@ def numprim(y):
         else:
             return print('No es un numero primo.')
     return print('Es un numero primo.')
+def fg(a, b, c):
+    '''Este programa saca la respuesta con una formula general'''
+    list=[]
+    x1=-b + cmath.sqrt(b**2 - 4*a*c)/2*a
+    x2=-b - cmath.sqrt(b**2 - 4*a*c)/2*a
+    list.append(x1)
+    list.append(x2)
+    print(list)
+    return list
+fg(1, 0, 4)
+print(fg(1, 0, 4)[0])
