@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ph">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ph.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
