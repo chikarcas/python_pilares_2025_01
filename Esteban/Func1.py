@@ -1,4 +1,4 @@
-import cmath
+import cmath, math
 def saludo(n):
     """Esta funcion imprime un saludo a la persona que se escrba como argumento."""
     print("Hola "+ n)
@@ -34,5 +34,13 @@ def fg(a, b, c):
     list.append(x2)
     print(list)
     return list
-fg(1, 0, 4)
-print(fg(1, 0, 4)[0])
+def ac(r):
+    '''Este programa saca una el area de unn circulo.'''
+    a=(math.pi*(r**2))
+    return a
+ac(1)
+def vc(r,h):
+    '''Este programa saca el volumen de un cilindro'''
+    v=(ac(r)*h)
+    return print(v)
+vc(1)
